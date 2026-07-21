@@ -1,0 +1,17 @@
+{
+  "user": [
+    {
+      "note": "HTML",
+      "id": "sIvw0Pb0AGE"
+    },
+    {
+      "note": "CSS",
+      "id": "ZxvYElkHH1U"
+    },
+    {
+      "note": "JAVASCRIPT",
+      "id": "P0Zf3qVu0mw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
