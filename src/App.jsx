@@ -2,6 +2,7 @@ import React from 'react'
 import { useQuery } from '@tanstack/react-query'
 import axios from "axios"
 import Note from "./Note.jsx" 
+import Todo from "./Todo.jsx"
 
 const fetchUser = async ()=> {
   const response = await axios.get("https://jsonplaceholder.typicode.com/users")
@@ -27,6 +28,7 @@ function App() {
       <br />
       <h1>NOTE</h1>
       <Note />
+      <Todo/>
     </div>
   )
 }
